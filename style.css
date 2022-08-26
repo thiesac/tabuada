@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+#header {
+    margin: 20px auto;
+    border: 2px solid #CDECFF;
+    border-radius: 8px;
+    padding: 40px;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #CDECFF;
+}
+input, button {
+    background-color: #FFB7B2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #f09f99;
+}
+#show-table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 20%;
+}
+#show-table td {
+    border: 1px solid rgb(210, 208, 208);
+    text-align: center;
+    background-color: #B5EAD7;
+    color: white;
+}
+#show-table tr:hover {
+    background-color: #ddd;
+}
